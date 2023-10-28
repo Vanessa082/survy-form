@@ -2,10 +2,9 @@ body {
   font-family: sans-serif;
   text-align: center;
   background-image:
-    linear-gradient
-    (115deg,
-    #3a3a9ecc,
-    #8888ceb3),
+    linear-gradient (115deg,
+      #3a3a9ecc,
+      #8888ceb3),
     url("/assets/images/bakgound.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,7 +42,7 @@ p {
 
 form {
   background-color: #03032c80;
-  color: #ffffff;
+  color: #fff;
   padding: 20px;
   border: 2px solid #000;
   max-width: 600px;
@@ -87,14 +86,14 @@ textarea {
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: #ffff;
+  background-color: #fff;
   font-size: 16px;
   resize: none;
 }
 
 button {
   display: block;
-  color: #ffff;
+  color: #fff;
   width: 100%;
   margin: auto;
   padding: 12px;
@@ -102,4 +101,3 @@ button {
   border-radius: 2px;
   background-color: #69dd69d3;
 }
-
