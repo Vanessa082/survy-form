@@ -13,9 +13,9 @@ body {
 }
 
 header {
-  color: #ffff;
+  color: #fff;
   padding: 0 0 9px;
-  margin-bottom: 18px
+  margin-bottom: 18px;
 }
 
 h1 {
@@ -101,3 +101,4 @@ button {
   border-radius: 2px;
   background-color: #69dd69d3;
 }
+
