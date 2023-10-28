@@ -1,3 +1,102 @@
-body{
-    background-color: aliceblue;
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: linear-gradient(115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)),
+    url("/assets/images/bakgound.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  color: #ffff;
+  padding: 0 0 9px;
+  margin-bottom: 18px
+}
+
+h1 {
+  font-weight: 400;
+  padding: 8px;
+  margin: 8px;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+#para {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+form {
+  background-color: rgba(3, 3, 44, 0.5);
+  color: #ffff;
+  padding: 20px;
+  border: 2px solid black;
+  max-width: 600px;
+  text-align: left;
+  margin: auto;
+}
+
+input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  color: #ffff;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+
+label {
+  padding: 20px 0 12px 0;
+  margin: 0;
+}
+
+.input-element {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffff;
+  font-size: 16px;
+  resize: none;
+}
+
+button {
+  display: block;
+  color: #ffff;
+  width: 100%;
+  margin: auto;
+  padding: 12px;
+  border: none;
+  border-radius: 2px;
+  background-color: rgba(105, 221, 105, 0.826);
 }
